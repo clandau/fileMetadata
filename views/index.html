@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>File Metadata API</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="styles.css" />
+</head>
+
+<body>
+    <div class = 'container'>
+        <h2>API: File Metadata Microservice</h2>
+
+    <h4>Description here</h4><code>GET http:/urlshort.celandau.com/api/shorturl/new/</code>
+    <p>
+    Example: <br><code>http://urlshort.celandau.com/api/shorturl/new/https://www.google.com</code><br>
+    Response: <br><code>{"original_url":"www.google.com","short_url":"1111"}</code>
+</p>
+    Example: <br><code>POST http://urlshort.celandau.com/api/shorturl/new - https://www.google.com</code>
+    <p>
+    <div id='form-div'> 
+    <form enctype='multipart/form-data' method='POST' action='/api/fileanalyze'>
+    <input id='inputfield' type='file' name='upfile'><br>
+    <input id='button' type='submit' value='Upload'>
+</form>
+</p>
+    </div>
+    <div class="footer">
+        <p style="text-align:left;">Created by<a href='mailto:celandau@gmail.com'> Courtney Landau</a>
+            <span style="float:right;">2018</span>
+            </p>
+    </div>
+</body>
+</html>
