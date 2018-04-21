@@ -17,9 +17,8 @@ app.get('/', (req, res) => {
 });
 
 app.post('/api/fileanalyze', fileUpload.single('upfile'), (req, res, next) => {
-    //get info from file
-    console.log(req.file.size);
-    res.send({ 'file size in bytes' : req.file.size })
+    //get info from file and return the file size in JSON response
+    res.json({ 'file size (bytes)' : req.file.size })
 })
 
 app.listen(PORT, () => {
