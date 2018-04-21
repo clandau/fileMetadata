@@ -12,17 +12,15 @@
 <body>
     <div class = 'container'>
         <h2>API: File Metadata Microservice</h2>
-    <h4>Description here</h4>
-    <p>
-
-</p>
-    <p>
+    <h4>Usage: submit a file upload below.</h4>
     <div id='form-div'> 
     <form enctype='multipart/form-data' method='POST' action='/api/fileanalyze'>
     <input id='inputfield' type='file' name='upfile'><br>
     <input id='button' type='submit' value='Upload'>
 </form>
-</p>
+</div><div>
+<h4>Sample response:</h4>
+<code>{ "file name" : "Raindrop.dmg", "file size (bytes)" : 53991262 }</code>
     </div>
     <div class="footer">
         <p style="text-align:left;">Created by<a href='mailto:celandau@gmail.com'> Courtney Landau</a>
