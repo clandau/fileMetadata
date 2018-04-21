@@ -43,8 +43,8 @@ h4 {
 }
 
 input {
-    width: 250px;
-    padding: 6px;
+    width: 200px;
+    padding: 10px;
 }
 
 button, input, select, textarea {
